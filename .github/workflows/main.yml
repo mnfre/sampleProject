@@ -2,6 +2,7 @@ name: sample workflow
 on: push
 jobs:
   samplejob1:
+    runs-on: ubuntu-latest
     steps:
-      -name: sample step
-       uses: echo "Sample"
+      - name: sample step
+        uses: echo "Sample"
