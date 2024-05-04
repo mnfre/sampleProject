@@ -1,7 +1,6 @@
 name: sample workflow
 on: 
-  schedule:
-    - cron: '* * * * *'
+  push:
   
 jobs:
   samplejob1:
