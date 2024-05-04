@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: sample step
-        uses: echo "Sample"
+        run: echo "Sample"
