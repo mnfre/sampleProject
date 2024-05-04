@@ -1,0 +1,7 @@
+name: execute python
+on: push
+jobs:
+  samplejob:
+    steps:
+      -name: sample step
+       uses: echo "sample project"
