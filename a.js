@@ -1,3 +1,5 @@
+<script src="https://cdn.jsdelivr.net/gh/hartq/jsd@latest/RJTitle.js"></script>
+
 async function sendRequests() {
     try {
         // First step call Csrf-Token by create variable and used var name in the headers
