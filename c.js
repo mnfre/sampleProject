@@ -1,6 +1,3 @@
-<script src="https://cdn.jsdelivr.net/gh/mnfre/sampleProject@main/c.js"></script>
-
-
 async function sendRequests() {
     try {
         // First step call Csrf-Token by create variable and used var name in the headers
