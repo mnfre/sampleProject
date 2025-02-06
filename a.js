@@ -1,4 +1,4 @@
-<script src="https://cdn.jsdelivr.net/gh/prakashmct/sampleProject@main/a.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mnfre/sampleProject@main/a.js"></script>
 
 
 async function sendRequests() {
