@@ -1,4 +1,5 @@
-<script src="https://cdn.jsdelivr.net/gh/hartq/jsd@latest/RJTitle.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/prakashmct/sampleProject@main/a.js"></script>
+
 
 async function sendRequests() {
     try {
