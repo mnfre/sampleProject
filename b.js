@@ -23,4 +23,7 @@ async function sendRequests() {
     }
 }
 
+console.log('Request1');
 sendRequests();
+console.log('Request2');
+
